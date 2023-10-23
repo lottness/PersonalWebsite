@@ -4,7 +4,7 @@
 
 /* Style main groups*/
 html{
-    background-color: #ff19e1;
+    background-color: #000000;
     font-size: 16px;
     font-family: sans-serif;
 }
@@ -17,7 +17,8 @@ body{
 }
 
 nav {
-    background-color: rgb(4, 4, 236);
+    background-color: rgb(97, 203, 43);
+    box-shadow: 0 0 12px -2px black;
     position: fixed;
     left: 0;
     right: 0;
@@ -38,7 +39,7 @@ main {
 }
 
 footer{
-    background-color: rgb(4, 4, 236);
+    background-color: rgb(97, 203, 43);
     height: 70px;
     padding: 10px;
     position: fixed;
@@ -55,5 +56,16 @@ img {
     width: 300px;
     float: right;
     margin: 10px 0 10px 10px;
-    
 }
+
+.sociallink{
+    height: 50px;
+    width: 50px;
+    align-content:space-between;
+    text-align: center;
+    position:fixed;
+    padding: 10px;
+    box-shadow: black;    
+
+}
+
