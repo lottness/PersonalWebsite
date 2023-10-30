@@ -59,13 +59,14 @@ img {
 }
 
 .sociallink{
-    height: 50px;
+    height: 7%;
     width: 50px;
     align-content:space-between;
     text-align: center;
     position:fixed;
-    padding: 10px;
-    box-shadow: black;    
+    padding: .250cm;
+    box-shadow: black; 
+    z-index: 1;   
 
 }
 
@@ -94,3 +95,21 @@ img {
     letter-spacing: .09em;
     border-radius: 2px;
   }
+
+  @media screen and (min-width: 390px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    body {
+        flex-direction: column;
+    }
+}
